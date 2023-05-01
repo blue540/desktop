@@ -1,0 +1,28 @@
+class Cat:
+   def_init_(selt,name,color):
+     self.name=name
+     self.color=color;
+     self.hungry=true
+
+   def meow(self):
+    if self.hungry:
+       print("喵喵～我饿了!")
+     else:
+       print("喵喵～我现在很满足！"）
+             
+   def eat(self):
+     print("我正在享受美味的猫粮！"）
+     self.hungry=False
+           
+   def eat(self):
+     print("我现在非常开心！"）
+           
+   def play(self):
+     print("我要睡觉啦！晚安～")
+
+#测试
+mycat=cat("强子","黑色"）
+mycat.meow()
+mycat.eat()
+mycat.meow()
+mycat.play()
